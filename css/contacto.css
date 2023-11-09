@@ -1,0 +1,174 @@
+/*Principal*/
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: white;
+}
+
+header {
+  background: #ecf8f2;
+  background-size: cover;
+  height: 15%;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  box-shadow: 0px 3px 5px 0px #ccc;
+}
+
+.imagen_logo {
+  margin-top: -0.9vh;
+  margin-left: 7%;
+  border-radius: 10px;
+}
+
+/*Barra*/
+
+#barra {
+  position: fixed;
+  top: 2.5vh;
+  margin-left: 19%;
+  width: 25%;
+}
+
+#barra ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+#barra a:hover {
+  color: #c78c19;
+}
+
+#barra a {
+  color: black;
+  font-size: 3vh;
+  text-decoration: none;
+}
+
+/*Formulario*/
+
+.titulo-principal {
+  text-align: center;
+  font-size: 2em;
+  margin-top: 9rem;
+  clear: left;
+}
+
+h3 {
+  text-align: center;
+}
+
+form {
+  margin: 9vh 9vh;
+  width: 75%;
+}
+
+form label,
+form legend {
+  display: block;
+  font-size: 20px;
+  margin: 0 0 10px;
+}
+
+.input-padron {
+  display: block;
+  margin: 0 0 20px;
+  padding: 10px 25px;
+  width: 50%;
+  border-radius: 15px;
+}
+
+.checkbox {
+  margin: 20px 0;
+}
+
+.enviar {
+  width: 20%;
+  padding: 15px 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+  background: #b7e4c7;
+  border: 2px solid black;
+  border-radius: 15px;
+  transition: 1s all;
+  cursor: pointer;
+}
+
+.enviar:hover {
+  background: #5dbb84;
+  transform: scale(1.2);
+}
+
+h4 {
+  margin-top: 50px;
+}
+
+table {
+  margin: 20px 40px;
+}
+
+thead {
+  background: #b7e4c7;
+  color: black;
+  font-weight: bold;
+}
+
+td,
+th {
+  border: 1px solid black;
+  padding: 8px 15px;
+}
+
+fieldset {
+  border-radius: 15px;
+}
+
+/*boton flotante*/
+
+.btn-flotante {
+  border-radius: 25px; /* Borde del boton */
+  background-color: #b7e4c7; /* Color de fondo */
+  padding: 5px 5px 5px 5px; /* Relleno del boton */
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  z-index: 99;
+}
+
+@media only screen and (max-width: 600px) {
+  .btn-flotante {
+    font-size: 14px;
+    padding: 12px 20px;
+    bottom: 20px;
+    right: 20px;
+  }
+}
+
+/*Footer*/
+.footers {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  top: 9vh;
+}
+
+.link-face {
+  display: flex;
+  gap: 30px;
+}
+
+.informacion {
+  margin-left: 50px;
+}
+
+p {
+  font-weight: 100 !important;
+}
+
+footer {
+  background-color: #ecf8f2;
+  box-shadow: 0px -3px 5px 0px #ccc;
+}

@@ -1,0 +1,262 @@
+/*Principal*/
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: white;
+}
+
+header {
+  background: #ecf8f2;
+  background-size: cover;
+  height: 15%;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  box-shadow: 0px 3px 5px 0px #ccc;
+}
+
+.imagen_logo {
+  margin-top: -0.9vh;
+  margin-left: 7%;
+  border-radius: 10px;
+}
+
+/*Barra*/
+
+#barra {
+  position: fixed;
+  top: 2.5vh;
+  margin-left: 19%;
+  width: 25%;
+}
+
+#barra ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+#barra a:hover {
+  color: #c78c19;
+}
+
+#barra a {
+  color: black;
+  font-size: 3vh;
+  text-decoration: none;
+}
+
+/*Catalogo*/
+
+.titulo-principal {
+  text-align: center;
+  font-size: 2em;
+  margin-top: 9rem;
+  clear: left;
+}
+
+.contenidoPrincipal-servicios {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.contenidoPrincipal-cursos-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35vh;
+  width: 45vh;
+  border-radius: 10px;
+  margin: 1%;
+  background-color: #b7e4c7;
+  text-align: center;
+  box-shadow: 2px 2px 2px #ccc;
+  padding: 18px;
+  cursor: pointer;
+}
+
+.contenidoPrincipal-cursos-link a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.contenidoPrincipal-cursos-link:hover {
+  box-shadow: 4px 4px 4px #ccc;
+}
+
+/*Servicios generales*/
+
+.ser_generales {
+  position: fixed;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  border-radius: 15px;
+  top: 23vh;
+  width: 115vh;
+  height: 65vh;
+  margin-left: 20%;
+  background-color: #ffffff;
+  justify-content: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 25px;
+  z-index: 1;
+}
+
+.activado {
+  display: none;
+}
+
+.btn-close {
+  position: absolute;
+  cursor: pointer;
+  top: 2%;
+  left: 93%;
+}
+
+.btn-closed {
+  position: absolute;
+  cursor: pointer;
+  top: 2%;
+  left: 93%;
+}
+
+.btn-closee {
+  position: absolute;
+  cursor: pointer;
+  top: 2%;
+  left: 93%;
+}
+
+.ref_titleg mark {
+  background-color: #b7e4c7;
+  font-size: 2em;
+  padding: 1vh;
+  border-radius: 12px;
+}
+
+.ref_titleg {
+  text-align: center;
+}
+
+.ref_contentg {
+  font-size: 15px;
+}
+
+.ref_contentg img {
+  margin-left: 32%;
+}
+
+.servicios {
+  background-color: #a9dfbf;
+  text-align: center;
+  font-size: 2em;
+  margin-top: 55px !important;
+  clear: left;
+
+  padding: 2vh;
+  width: 70%;
+  margin: 0 auto;
+  border-radius: 5px;
+  box-shadow: -2px 3px 3px 0px #cbc5c5;
+}
+
+.servicios_generales p {
+  text-align: left;
+  padding: 3vh 3vh 3vh 3vh;
+}
+
+/*Salvavidas*/
+
+.ser_salvavidas {
+  position: fixed;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  border-radius: 15px;
+  top: 22vh;
+  width: 115vh;
+  height: 65vh;
+  margin-left: 20%;
+  background-color: #ffffff;
+  justify-content: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 25px;
+  z-index: 1;
+}
+
+.activo {
+  display: none;
+}
+
+/*Gestion*/
+.ser_gestion {
+  position: fixed;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  border-radius: 15px;
+  top: 18vh;
+  width: 115vh;
+  height: 72vh;
+  margin-left: 20%;
+  background-color: #ffffff;
+  justify-content: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 25px;
+  z-index: 1;
+}
+
+.active {
+  display: none;
+}
+
+/*boton flotante*/
+
+.btn-flotante {
+  border-radius: 25px; /* Borde del boton */
+  background-color: #b7e4c7; /* Color de fondo */
+  padding: 5px 5px 5px 5px; /* Relleno del boton */
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  transition: all 300ms ease 0ms;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  z-index: 99;
+}
+
+@media only screen and (max-width: 600px) {
+  .btn-flotante {
+    font-size: 14px;
+    padding: 12px 20px;
+    bottom: 20px;
+    right: 20px;
+  }
+}
+
+/*Footer*/
+.footers {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.link-face {
+  display: flex;
+  gap: 30px;
+}
+
+.informacion {
+  margin-left: 50px;
+  font-weight: 100;
+}
+
+footer {
+  background-color: #ecf8f2;
+  box-shadow: 0px -3px 5px 0px #ccc;
+}

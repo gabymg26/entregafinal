@@ -1,0 +1,232 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: white;
+}
+
+header {
+  background: #ecf8f2;
+  background-size: cover;
+  height: 15%;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  box-shadow: 0px 3px 5px 0px #ccc;
+}
+
+.imagen_logo {
+  margin-top: -0.9vh;
+  margin-left: 7%;
+  border-radius: 10px;
+}
+
+/*Barra*/
+
+#barra {
+  position: fixed;
+  top: 2.5vh;
+  margin-left: 19%;
+  width: 25%;
+}
+
+#barra ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+#barra a:hover {
+  color: #c78c19;
+}
+
+#barra a {
+  color: black;
+  font-size: 3vh;
+  text-decoration: none;
+}
+
+/* Descripción de la empresa*/
+
+.titulo-principal {
+  text-align: center;
+  font-size: 2em;
+  margin-top: 8%;
+  clear: left;
+  color: #081c15;
+}
+
+.principal {
+  padding: 3em 0;
+  clear: left;
+}
+
+.descripcion {
+  text-align: left;
+  margin: 1em 7em;
+}
+
+.img_principal {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.img_principal img {
+  width: 23%;
+  border-radius: 5%;
+}
+
+/*Misión y visión*/
+
+.titulos-mision {
+  background-color: #b7e4c7;
+  background-size: contain;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.titulos-mision th {
+  padding: 1vh;
+  border-radius: 1vh;
+}
+
+.texto-mision {
+  justify-content: right;
+}
+
+.borde {
+  border: 0.5vh solid #b7e4c7;
+  border-radius: 10px;
+  padding: 2vh;
+}
+
+/*Ubicación*/
+
+.ubicacion h2 {
+  font-size: 1.5em;
+}
+
+.card_ubicacion {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  box-shadow: 3px 3px 3px #ccc;
+  border: #b7e4c7 solid 2px;
+  width: 70%;
+  height: 75vh;
+  margin-top: -80vh;
+  margin-left: 15%;
+  border-radius: 12px;
+}
+
+.ubicacion_texto {
+  width: 55vh;
+}
+
+.ubicacion {
+  margin-top: 45%;
+}
+
+.ubicacion_texto mark {
+  background-color: #95d5b2;
+  padding: 1vh;
+  border-radius: 9px;
+}
+
+/*Equipo*/
+
+.socios {
+  text-align: center;
+  font-size: 2em;
+  margin-top: 4%;
+}
+
+.contenidoPrincipal-servicios {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.contenidoPrincipal-cursos-link {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 49vh;
+  width: 25%;
+  border-radius: 5%;
+  margin: 1%;
+  background-color: #b7e4c7;
+  text-align: center;
+  box-shadow: 2px 2px 2px #ccc;
+  padding: 2%;
+  align-items: center;
+
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+/*Video*/
+
+.video {
+  margin-top: 55px;
+  text-align: center;
+  clear: left;
+}
+
+.video h2 {
+  font-size: 2em;
+}
+
+.video-contenido {
+  width: 940px;
+  margin: 2em auto;
+}
+
+h2 mark {
+  background-color: #95d5b2;
+  padding: 1vh;
+  border-radius: 9px;
+}
+
+/*boton flotante*/
+
+.btn-flotante {
+  border-radius: 25px; /* Borde del boton */
+  background-color: #b7e4c7; /* Color de fondo */
+  padding: 5px 5px 5px 5px; /* Relleno del boton */
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  z-index: 99;
+}
+
+@media only screen and (max-width: 600px) {
+  .btn-flotante {
+    font-size: 14px;
+    padding: 12px 20px;
+    bottom: 20px;
+    right: 20px;
+  }
+}
+
+/*Footer*/
+.footers {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.link-face {
+  display: flex;
+  gap: 30px;
+}
+
+.informacion {
+  margin-left: 50px;
+}
+
+footer {
+  background-color: #ecf8f2;
+  box-shadow: 0px -3px 5px 0px #ccc;
+}
